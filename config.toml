@@ -5,13 +5,17 @@ publishDir = "docs"
 theme = "hugo-theme-nix"
 [menu]
   [[menu.header]]
-    name = "post"
+    name = "eventos"
     weight = 0
-    url = "/post"
+    url = "/eventos"
   [[menu.header]]
     name = "sobre"
     weight = 1
-    url = "/about"
+    url = "/sobre"
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "/posts"
 
 [params]
   GithubID = "tarrafahc"
