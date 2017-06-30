@@ -1,0 +1,26 @@
+languageCode = "en-us"
+title = "Tarrafa Hacker Clube"
+baseURL = "tarrafahc.github.io"
+publishDir = "docs"
+theme = "hugo-theme-nix"
+[menu]
+  [[menu.header]]
+    name = "post"
+    weight = 0
+    url = "/post"
+  [[menu.header]]
+    name = "sobre"
+    weight = 1
+    url = "/about"
+
+[params]
+  GithubID = "tarrafahc"
+  TwitterID = "tarrafahc"
+  FacebookID = "TarrafaHC"
+  #Name = "Tarrafa Hacker Clube"
+  HeaderUsername = "tarrafa"
+  HeaderHostname = "florianopolis"
+  Email = "your_email"
+  About = "O #Tarrafa é um Hackerspace situado em Florianópolis. Somos um laboratório comunitário, espaço onde pessoas com interesses em comum, frequentemente em tecnologia, ciência, arte digital e eletrônica, política, matemática, biologia, arquitetura, segurança, e qualquer área do conhecimento humano, podem se encontrar, compartilhar conhecimentos e colaborar em projetos conjuntos." 
+ProfilePicture = "/tarrafa.jpg"
+
