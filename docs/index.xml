@@ -2,11 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tarrafa Hacker Clube</title>
-    <link>/tarrafahc.github.io/index.xml</link>
+    <link>tarrafahc.github.io/</link>
     <description>Recent content on Tarrafa Hacker Clube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/tarrafahc.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="tarrafahc.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
     
   </channel>
 </rss>
