@@ -8,19 +8,19 @@
 	</head>
 	<body>
 		{{ partial "header.html" . }}
-		<div class="container wrapper">
-			<div class="row">
-				<div class="col-sm-3 col-centered">
-					<img alt="profile-picture" class="img-responsive user-picture" src="{{ .Site.Params.ProfilePicture }}">
+			<header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/img/home-bg.jpg')">
+			</header>
+		<div class="container-fluid">
+			<div class="row p-3 justify-content-sm-center">
+				<div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2">
+					<img alt="profile-picture" class="img-thumbnail rounded user-picture" src="{{ .Site.Params.ProfilePicture }}">
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-4 col-md-offset-4 user-description text-center">
+			<div class="row justify-content-sm-center">
+				<div class="col col-sm-6 col-md-5 col-lg-4 col-xl-3 align-self-center user-description">
+					<hr class="small">
 					{{ with .Site.Params.TwitterID }}
-					<a class="twitter-timeline"
- 						 href="https://twitter.com/{{.}}"
- 						 data-tweet-limit="3">
-					</a>
+					<a class="twitter-timeline" href="https://twitter.com/{{.}}" data-tweet-limit="3"></a>
 					{{ end }}
 				</div>
 			</div>
