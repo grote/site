@@ -11,7 +11,7 @@ Os eventos do Tarrafa são gratuitos e de participação aberta e normalmente n�
 
 Data e hora | Evento | Descrição
 ------------ | ------------- | --------------
-Último sábado do mês | **Reunião geral** | Deliberação de assuntos soberanos e confraternização
+Último sábado do mês | **Reunião geral** | Deliberação de assuntos soberanos e confraternização.
 Aguardando definição | **Encontro de estudo sobre Shaders** | Brizolara, defina a data aí!
 A definir tb | **électronique fantastique** | Encontros de entusiastas e curiosos em eletrônica para trocar idéia e etc.
 classico em breve | **segurança da informação & python** | com mr eduardo nas pickups
